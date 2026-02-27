@@ -9,7 +9,6 @@ export const fetchData = async (endpoint) => {
 
     return response
   } catch (error) {
-    alert("Failed to fetch weather data")
-    return { error }
+    return error
   }
 }
