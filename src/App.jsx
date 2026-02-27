@@ -37,7 +37,7 @@ function App() {
         <button type="submit">Search</button>
       </form>
       {!!isLoading ? (
-        <p>Loading data…</p>
+        <p>Loading data...</p>
       ) : (
         <div className="weather-cards">
           {Object.keys(weather).map((key) => {
